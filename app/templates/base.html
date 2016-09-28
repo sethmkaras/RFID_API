@@ -1,0 +1,14 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} Page</title>
+    {% else %}
+    <title>Welcome to Scanner Page</title>
+    {% endif %}
+  </head>
+  <body>
+    Scanner Content...
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
