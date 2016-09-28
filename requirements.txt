@@ -6,3 +6,4 @@ itsdangerous==0.23
 Werkzeug==0.9.4
 MarkupSafe==0.18
 Jinja2==2.7.1
+flask_bootstrap==3.3.7.0
