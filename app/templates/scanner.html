@@ -1,4 +1,3 @@
-{% extends "base.html" %}
 {% block content %}This is the scanner page
 <head>
 <title>QRCODE</title>
@@ -35,9 +34,9 @@ function load()
 	init();
 	qrcode.callback = read;
 }
-        function captureToCanvas() {
-		    qrcode.decode();
-        }
+function captureToCanvas() {
+	qrcode.decode();
+}
 </script>
 
 </head>
