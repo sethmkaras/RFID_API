@@ -11,3 +11,7 @@ def index():
 @app.route('/scanner')
 def scanner():
 	return render_template('scanner.html');
+
+@app.route('/scanner2')
+def scanner2():
+	return render_template('scanner2.html')
