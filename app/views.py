@@ -15,3 +15,7 @@ def scanner():
 @app.route('/scanner2')
 def scanner2():
 	return render_template('scanner2.html')
+
+@app.route('/scanner3')
+def scanner3():
+	return render_template('scanner3.html')
